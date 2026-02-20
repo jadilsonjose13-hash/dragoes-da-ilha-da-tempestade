@@ -1,0 +1,148 @@
+{
+  "id": "dragoes-da-ilha-da-tempestade",
+  "title": "Dragões da Ilha da Tempestade",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Tudo que você precisa para começar a jogar o maior RPG de todos os tempos.</p>",
+  "authors": [
+    {
+      "name": "Jadilson Santos",
+      "email": "jadilsonjose13@gmail.com",
+      "discord": "png_man",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true,
+    "dnd5e": {
+      "sourceBooks": {
+        "DoSI": "Dragões da Ilha da Tempestade"
+      }
+    }
+  },
+  "media": [
+    {
+      "type": "setup",
+      "thumbnail": "modules/dragoes-da-ilha-da-tempestade/imagens/thumb-modulo.png",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "criaturas",
+      "label": "Criaturas",
+      "path": "packs/criaturas",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "regras",
+      "label": "Regras",
+      "path": "packs/regras",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tabelas",
+      "label": "Tabelas",
+      "path": "packs/tabelas",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "caracteristicas-de-criaturas",
+      "label": "Características de Criaturas",
+      "path": "packs/caracteristicas-de-criaturas",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "aventura",
+      "label": "Aventura",
+      "path": "packs/aventura",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Dragões da Ilha da Tempestade",
+      "sorting": "a",
+      "color": "#478bb8",
+      "packs": [
+        "regras",
+        "tabelas",
+        "aventura"
+      ],
+      "folders": [
+        {
+          "name": "Criaturas",
+          "sorting": "m",
+          "color": "#3f7da5",
+          "packs": [
+            "criaturas",
+            "caracteristicas-de-criaturas"
+          ],
+          "folders": []
+        }
+      ]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "livro-do-jogador-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "livro-do-mestre-2014",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "livro-dos-monstros-2014",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "guia-do-aventureiro-para-a-costa-da-espada",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
