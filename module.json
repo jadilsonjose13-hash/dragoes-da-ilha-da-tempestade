@@ -1,7 +1,7 @@
 {
   "id": "dragoes-da-ilha-da-tempestade",
   "title": "Dragões da Ilha da Tempestade",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -144,5 +144,8 @@
         "compatibility": {}
       }
     ]
-  }
+  },
+  "url": "https://github.com/jadilsonjose13-hash/dragoes-da-ilha-da-tempestade",
+  "manifest": "https://raw.githubusercontent.com/jadilsonjose13-hash/dragoes-da-ilha-da-tempestade/refs/heads/main/module.json",
+  "download": "https://github.com/jadilsonjose13-hash/dragoes-da-ilha-da-tempestade/archive/refs/heads/main.zip"
 }
