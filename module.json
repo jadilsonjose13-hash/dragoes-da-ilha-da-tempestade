@@ -1,7 +1,7 @@
 {
   "id": "dragoes-da-ilha-da-tempestade",
   "title": "Dragões da Ilha da Tempestade",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -86,6 +86,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "itens-magicos",
+      "label": "Itens Mágicos",
+      "path": "packs/itens-magicos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
     }
   ],
   "packFolders": [
@@ -96,7 +107,8 @@
       "packs": [
         "regras",
         "tabelas",
-        "aventura"
+        "aventura",
+        "itens-magicos"
       ],
       "folders": [
         {
